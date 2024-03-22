@@ -12,14 +12,17 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".LpPassAct"
+            android:name=".RegistAct"
             android:exported="false" />
         <activity
-            android:name=".RegistAct"
+            android:name=".LpPassAct"
             android:exported="false" />
         <activity
             android:name=".LogInAct"
             android:exported="false" />
+        <activity
+            android:name=".HomeAct"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

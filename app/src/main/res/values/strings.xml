@@ -63,5 +63,17 @@
 
     <string name="btn_rst_pass">Reset Password</string>
 
+    <string name="home_title">Hallo User</string>
+
+    <string name="home_sub_title">Selamat Datang di Halaman Home Aplikasi</string>
+
+    <string name="btn_logout">LOGOUT</string>
+
+    <string name="btn_camera">Buka Kamera</string>
+
+    <string name="maskn_lokasi">Masukkan Lokasi</string>
+
+    <string name="btn_lokasi">Buka Maps</string>
+
 
 </resources>
