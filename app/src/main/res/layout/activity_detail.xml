@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:padding="8dp"
-    tools:context=".DetailAct">
+    tools:context=".DetailAct"
+    android:background="@color/teal_701">
 
     <TextView
         android:id="@id/tv_jenis"
@@ -38,8 +39,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_versi"
-        app:layout_constraintVertical_bias="0.016">
+        app:layout_constraintTop_toBottomOf="@+id/tv_versi">
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -24,12 +24,6 @@
             android:name=".HomeAct"
             android:exported="false"/>
         <activity
-            android:name=".MyAdapter"
-            android:exported="false"/>
-        <activity
-            android:name=".ItemData"
-            android:exported="false"/>
-        <activity
             android:name=".DetailAct"
             android:exported="false"/>
         <activity
