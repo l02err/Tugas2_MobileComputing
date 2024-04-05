@@ -16,6 +16,8 @@
         android:text="Android Alpha"
         android:textSize="20dp"
         android:textStyle="bold"
+        style="@style/Title"
+        android:textColor="@color/teal_700"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -29,15 +31,18 @@
         android:textColor="@color/lll"
         android:textSize="20dp"
         android:textStyle="bold"
+        style="@style/SubTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_jenis"/>
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="4dp"
+        android:layout_width="393dp"
+        android:layout_height="586dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_versi">
 
@@ -56,10 +61,12 @@
             <TextView
                 android:id="@+id/tv_detal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="269dp"
                 android:layout_marginTop="20dp"
                 android:text="Versi Android 1.0 Alpha ini pertama kali dirilis pada September 2008 dan tidak ditujukan untuk kebutuhan komersial. Walaupun belum dirilis secara komersial, versi Android ini telah dilengkapi fitur dukungan akses web browser, streaming youtube, pemutar media, google map, dan sinkronisasi dengan aplikasi google lainnya."
-                android:textAlignment="textStart" />
+                android:textColor="@color/teal_200"
+                android:textAlignment="center"
+                android:textSize="17dp" />
         </LinearLayout>
     </ScrollView>
 
