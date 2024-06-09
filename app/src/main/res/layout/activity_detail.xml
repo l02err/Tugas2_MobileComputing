@@ -63,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="269dp"
                 android:layout_marginTop="20dp"
-                android:text="Versi Android 1.0 Alpha ini pertama kali dirilis pada September 2008 dan tidak ditujukan untuk kebutuhan komersial. Walaupun belum dirilis secara komersial, versi Android ini telah dilengkapi fitur dukungan akses web browser, streaming youtube, pemutar media, google map, dan sinkronisasi dengan aplikasi google lainnya."
+                android:text="Descripsi"
                 android:textColor="@color/grey"
                 android:textAlignment="center"
                 android:textSize="17dp" />

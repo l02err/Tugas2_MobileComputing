@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,22 +9,31 @@
     android:background="@color/teal_701"
     android:orientation="vertical"
     android:padding="20dp"
-    android:gravity="center">
+    android:gravity="top">
+
+    <ProgressBar
+        android:id="@+id/prgsbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateBehavior="cycle"
+        android:visibility="gone" />
+
 
     <TextView
         android:id="@+id/home_title"
+        style="@style/Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/home_title"
-        android:textAlignment="center"
-
-        style="@style/Title" />
+        android:textAlignment="center" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/andrRV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/home_title" />
+
 
 
 </LinearLayout>

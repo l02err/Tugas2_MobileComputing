@@ -4,11 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
-import android.widget.Button
-import android.widget.TextView
 import android.widget.Toast
 import com.example.myapplication.databinding.ActivityLogInBinding
-import com.example.myapplication.databinding.ActivityRegistBinding
 import com.google.firebase.auth.FirebaseAuth
 
 //Halaman LogIn Aplikasi
@@ -66,6 +63,7 @@ class LogInAct : AppCompatActivity() {
                 Intent(this, HomeAct::class.java).also {
                     it.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                     startActivity(it)
+                    finish()
                 }
             }
             else {

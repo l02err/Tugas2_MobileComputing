@@ -38,6 +38,7 @@ class LpPassAct : AppCompatActivity() {
                     Intent(this, LogInAct::class.java).also {
                         it.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                         startActivity(it)
+                        finish()
                     }
                 }
                 else {
